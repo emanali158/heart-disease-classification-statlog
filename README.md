@@ -5,7 +5,7 @@ Classification of heart disease using the StatLog dataset. Includes data explora
 This project applies a **Random Forest classification model** to predict the presence of **Coronary Heart Disease (CHD)** using the *StatLog Heart dataset*.  
 It demonstrates practical skills in **data wrangling, exploratory analysis, model development, and validation** using R.
 
-📄 Full report available here: [Heart_Disease_Classification_Report.pdf](./Heart_Disease_Classification_Report.pdf)
+📄 Full report available here: [Heart_Disease_Classification_Report.docx](./Heart_Disease_Classification_Report.docx)
 
 ---
 
