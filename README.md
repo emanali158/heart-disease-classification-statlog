@@ -27,6 +27,9 @@ This project explores how machine learning can identify complex, non-linear patt
 
 ##  Key Findings
 
-- The model achieved an **AUC of 0.86** and **accuracy of ~80%**, with slightly higher specificity than sensitivity.  
-- Top predictive features included **maximum heart rate**, **ST depression**, **chest pain type**, and **number of major vessels**.  
-- Findings aligned with established clinical indicators of CHD.
+- The model achieved an **AUC of 0.86** and **accuracy of ~80%**, showing strong discriminative performance with **higher specificity (88%) than sensitivity (71%)**.  
+- The **F1 score (0.77)** indicated balanced precision and recall despite mild class imbalance.  
+- **Top predictors** included **maximum heart rate**, **ST depression**, **chest pain type**, and **number of major vessels**, aligning with recognised clinical markers of myocardial ischemia.  
+- The model’s high specificity suggests strong potential for reducing unnecessary diagnostic investigations, though **lower sensitivity** highlights the need for class-balancing techniques (e.g. SMOTE) in future work.  
+- Findings are consistent with other Random Forest–based studies that outperform logistic regression and decision trees in CHD prediction.
+
